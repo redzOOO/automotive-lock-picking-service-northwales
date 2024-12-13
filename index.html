@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotive Lock Picking Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Automotive Lock Picking Service</h1>
+        <p>Your trusted partner in automotive locksmith solutions.</p>
+    </header>
+
+    <main>
+        <section id="registration-lookup">
+            <h2>Enter Your Car Registration</h2>
+            <form id="registrationForm">
+                <label for="carReg">Car Registration:</label>
+                <input type="text" id="carReg" name="carReg" required>
+                <button type="submit">Check Compatibility</button>
+            </form>
+            <p id="compatibilityMessage" style="display: none;"></p>
+        </section>
+
+        <section id="details-form" style="display: none;">
+            <h2>Provide Your Details</h2>
+            <form id="detailsForm">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="contactNumber">Contact Number:</label>
+                <input type="tel" id="contactNumber" name="contactNumber" required>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="notes">Additional Notes:</label>
+                <textarea id="notes" name="notes"></textarea>
+
+                <label for="location">Pin Location (optional):</label>
+                <input type="url" id="location" name="location" placeholder="Google Maps link">
+
+                <button type="submit">Submit & Prepay</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Automotive Lock Picking Service. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
